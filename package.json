@@ -1,0 +1,37 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.14",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "expo": "~44.0.0",
+    "expo-status-bar": "~1.2.0",
+    "firebase": "^9.6.1",
+    "ionicons": "^6.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-web": "0.17.1",
+    "expo-image-picker": "~12.0.1",
+    "expo-notifications": "~0.14.0",
+    "expo-constants": "~13.0.0",
+    "expo-device": "~4.1.0",
+    "expo-speech": "~10.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
